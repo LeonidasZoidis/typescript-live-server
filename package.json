@@ -1,0 +1,20 @@
+{
+    "name": "typescript-live-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "concurrently \"npm:dev\" \"npm:serve\"",
+        "dev": "tsc --watch",
+        "serve": "lite-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^9.1.2",
+        "lite-server": "^2.6.1",
+        "typescript": "^5.8.3"
+    }
+}
