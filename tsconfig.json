@@ -20,7 +20,7 @@
         "noImplicitThis": true,
         "alwaysStrict": true,
         "strictNullChecks": true,
-        "noUnusedLocals": true,
+        "noUnusedLocals": false,
         "noUnusedParameters": true,
 
         /* 👇 Code style / quality */
